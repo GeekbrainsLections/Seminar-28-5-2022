@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Write("Enter your number: ");
+int number = int.Parse(Console.ReadLine());
+int result = number*number;
+Console.Write("Square of your number: ");
+Console.WriteLine(result);
